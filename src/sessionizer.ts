@@ -50,10 +50,8 @@ export async function showSessionPicker(args: Args) {
           if (!session) return
           return {
             path: sessionPath,
-            // label: project,
             label: `${parent ? `${parent}/` : ''}${session}`,
-            detail: sessionPath,
-            // ...(parent ? { description: parent } : {}),
+            // detail: sessionPath,
           }
         })
         .filter(isDefined)
@@ -64,7 +62,7 @@ export async function showSessionPicker(args: Args) {
       const actionTitle = camelCaseToWords(args.action)
       const result = await window.showQuickPick(sessions, {
         placeHolder: `Select a project to ${actionTitle}`,
-        title: `VS Code Sessionizer - ${actionTitle}`,
+        // title: `VS Code Sessionizer - ${actionTitle}`,
       })
       if (result) {
         cp.exec(
