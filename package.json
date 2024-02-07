@@ -14,6 +14,10 @@
   "categories": [
     "Other"
   ],
+  "activationEvents": [
+    "onCommand:sessionizer.open",
+    "onCommand:sessionizer.openInPlace"
+  ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
