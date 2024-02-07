@@ -18,3 +18,7 @@ Then, open the command palette (cmd+shift+p) and run any one of the following co
 - "Sessionizer: Open In Place"
 
 You will be prompted to select a directory from any one of the roots specified.
+
+# Notes
+
+May not work on Windows, as it's dependent on the `find` Unix-like command.
