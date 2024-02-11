@@ -1,5 +1,9 @@
 # VS Code Sessionizer
 
+## Link
+
+https://marketplace.visualstudio.com/items?itemName=omercohen.vscode-sessionizer
+
 ## Demo
 
 ![Demo](demo.gif)
