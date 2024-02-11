@@ -6,7 +6,7 @@
 
 ## Overview
 
-Easily open directories (sessions) in specified roots by fuzzy finding them.
+Easily open directories in specified roots by fuzzy finding them.
 
 Based on the notion that fuzzy finding is the fastest and most efficient way to selecting items.
 
