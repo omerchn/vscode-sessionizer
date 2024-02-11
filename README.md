@@ -12,7 +12,7 @@ Based on the notion that fuzzy finding is the fastest and most efficient way to 
 
 ## How To Use
 
-first, specify the `sessionizer.sessionRoots` setting, which is an array of the root directories of sessions, for example: ["\~/Desktop/projects", "\~/Desktop/work"]
+first, specify the `sessionizer.sessionRoots` setting, which is an array of the root directories of project directories, for example: ["\~/Desktop/projects", "\~/Desktop/work"]
 
 Then, open the command palette (cmd+shift+p) and run any one of the following commands:
 
