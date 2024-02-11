@@ -6,8 +6,6 @@
 
 ## Overview
 
-> A remake of [ThePrimeagen's tmux-sessionizer](https://github.com/ThePrimeagen/.dotfiles/blob/master/bin/.local/scripts/tmux-sessionizer) ported to VS Code.
-
 Easily open directories (sessions) in specified roots by fuzzy finding them.
 
 Based on the notion that fuzzy finding is the fastest and most efficient way to selecting items.
@@ -27,4 +25,6 @@ It is recommended to [create a keybinding](https://code.visualstudio.com/docs/ge
 
 ## Notes
 
-May not work on Windows, as it's dependent on the `find` Unix-like command.
+May not work on Windows, as it's dependent on the `find` Unix command.
+
+A port of [ThePrimeagen's tmux-sessionizer](https://github.com/ThePrimeagen/.dotfiles/blob/master/bin/.local/scripts/tmux-sessionizer) to VS Code.
